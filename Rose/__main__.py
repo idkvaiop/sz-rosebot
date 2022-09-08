@@ -160,12 +160,12 @@ My name is {BOT_NAME} an  advanced telegram Group management Bot For helpYou Pro
 
 
 fbuttons = InlineKeyboardMarkup(
-        [[InlineKeyboardButton(text="👥Support Group", url="https://t.me/szrosesupport"),
-          InlineKeyboardButton(text="👤News Channel", url="https://t.me/Theszrosebot")], 
-        [ InlineKeyboardButton(text="⚒ Source Code", url="https://github.com/szsupunma/sz-rosebot"),
-          InlineKeyboardButton(text="📓 Documentation", url="https://szsupunma.gitbook.io/rose-bot")], 
-        [InlineKeyboardButton(text="🖥 How To Deploy Me", url="https://szsupunma.gitbook.io/rose-bot")
-        ],[InlineKeyboardButton("« Back", callback_data='startcq')]])
+        [[InlineKeyboardButton(text="Support Group ❓", url="https://t.me/AkiraBotSupport"),
+          InlineKeyboardButton(text="News Channel 📰", url="https://t.me/TheAkiraBots")], 
+        [ InlineKeyboardButton(text="Developer ❕", url="https://tg://user?id={2102783671}"),
+          InlineKeyboardButton(text="Owner ❗", url="https://tg://user?id={5082902573}")], 
+        [InlineKeyboardButton(text="Language Supported 📝", callback_data="_langs")
+        ],[InlineKeyboardButton("Back", callback_data='startcq')]])
 
 keyboard =InlineKeyboardMarkup(
     [[InlineKeyboardButton(text="🇱🇷 English", callback_data="languages_en")],
