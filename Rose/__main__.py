@@ -241,8 +241,9 @@ async def startcq(client,CallbackQuery, _):
         text=f"""
 Hey there {CallbackQuery.from_user.mention}, 
 
-Hello, I'm Akira!
-I'm a Super Powerful Group management bot !
+H
+I'm Akira!
+A Super Powerful Group management bot !
 
 Join @TheAkiraBots for my updates :) """    
  disable_web_page_preview=True,
