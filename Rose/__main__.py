@@ -155,7 +155,7 @@ async def start(client, message: Message, _):
         await message.reply_text(f"""
 Hello {message.from_user.mention}, I am {BOT_NAME} !
 Hello, I'm Akira!
-I'm a Super Powerful Group management bot !
+I'm a Super Powerful Group management bot !"""
   
   return await add_served_user(chat_id) 
 
@@ -245,7 +245,7 @@ Hey there {CallbackQuery.from_user.mention},
 Hello, I'm Akira!
 I'm a Super Powerful Group management bot !
 
-Join @TheAkiraBots for my updates :)       
+Join @TheAkiraBots for my updates :) """    
  disable_web_page_preview=True,
         reply_markup=home_keyboard_pm)
 
