@@ -99,14 +99,14 @@ home_keyboard_pm = InlineKeyboardMarkup(
             callback_data="_about")
         ],
         [
-            InlineKeyboardButton(text="Help & Commands ❓", 
+            InlineKeyboardButton(text="Help & Commands ❗", 
             callback_data="bot_commands")
         ],
         [
-            InlineKeyboardButton(text="Creator 🔥", 
-            url=f"https://t.me/XKHILOP"),
             InlineKeyboardButton(text="News Channel 📰", 
-            url=f"https://t.me/TheAkiraBots")
+            url=f"https://t.me/TheAkiraBots"),
+            InlineKeyboardButton(text="Support Group ❓", 
+            url=f"https://t.me/AkiraBotSupport")
         ]
     ]
 )
@@ -114,7 +114,7 @@ home_keyboard_pm = InlineKeyboardMarkup(
 keyboard = InlineKeyboardMarkup(
     [
         [
-            InlineKeyboardButton(text="📚 Commands & help", 
+            InlineKeyboardButton(text="Help & Commands ❗", 
             url=f"t.me/{BOT_USERNAME}?start=help")
         ]
     ]
@@ -153,10 +153,11 @@ async def start(client, message: Message, _):
             await message.reply("** Run /connections to view or disconnect from groups!**")
     else:
         await message.reply_text(f"""
-Hey there {message.from_user.mention}, 
-
-My name is {BOT_NAME} an  advanced telegram Group management Bot For helpYou Protect Your Groups & Suit For All Your Needs.feel free to add me to your groups! """,reply_markup=home_keyboard_pm)
-        return await add_served_user(chat_id) 
+Hello {message.from_user.mention}, I am {BOT_NAME} !
+Hello, I'm Akira!
+I'm a Super Powerful Group management bot !
+  
+  return await add_served_user(chat_id) 
 
 
 fbuttons = InlineKeyboardMarkup(
@@ -241,8 +242,11 @@ async def startcq(client,CallbackQuery, _):
         text=f"""
 Hey there {CallbackQuery.from_user.mention}, 
 
-My name is Rose an  advanced telegram Group management Bot For helpYou Protect Your Groups & Suit For All Your Needs.feel free to add me to your groups! """,
-        disable_web_page_preview=True,
+Hello, I'm Akira!
+I'm a Super Powerful Group management bot !
+
+Join @TheAkiraBots for my updates :)       
+ disable_web_page_preview=True,
         reply_markup=home_keyboard_pm)
 
 
@@ -253,10 +257,10 @@ async def help_parser(name, keyboard=None):
 """
 **Welcome to help menu**
 
-I'm a group management bot with some useful features.
-You can choose an option below, by clicking a button.
-If you have any bugs or questions on how to use me, 
-have a look at my [Docs](https://szsupunma.gitbook.io/rose-bot/), or head to @szteambots.
+Hello, I'm Akira!
+I'm a Super Powerful Group management bot !
+
+Join @TheAkiraBots for my updates :)
 
 **All commands can be used with the following: / **""",keyboard)
 
