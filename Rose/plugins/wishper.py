@@ -76,7 +76,7 @@ the format should be in this arrangement
 
 now I'll split out the format in 3 parts and explain every part of it
 
-1- @szrosebot
+1- @akiragroupbot
 this is my username it should be at the beginning of the inline query so I'll know that you are using me and not another bot.
 
 2- whisper message
