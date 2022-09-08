@@ -10,7 +10,7 @@ from pyrogram.types import (
 
 lengths = 200
 
-IMG = "https://telegra.ph/file/8bb5ad38249514dbf72e6.jpg"
+IMG = "https://telegra.ph/file/9d2fbe40731e96d0f7b25.mp4"
 
 @app.on_inline_query()
 async def wishper_ai(_, sz: InlineQuery):
@@ -20,11 +20,11 @@ async def wishper_ai(_, sz: InlineQuery):
             or (query.startswith('@') and len(split) == 1):
         title = f"🔐 Write a whisper message"
         content = ("**Send whisper messages through inline mode**\n\n"
-                   "Usage: `@szrosebot [@username] text`")
-        description = "Usage: @szrosebot [@username] text"
+                   "Usage: `@akiragroupbot [@username] text`")
+        description = "Usage: @akiragroupbot [@username] text"
         button = InlineKeyboardButton(
             "More-Help",
-            url="https://t.me/szrosebot?start=learn"
+            url="https://t.me/Akiragroupbot?start=learn"
         )
 
     elif not query.startswith('@'):
@@ -34,7 +34,7 @@ async def wishper_ai(_, sz: InlineQuery):
         )
         description = f"{emoji.SHUSHING_FACE} {query}"
         button = InlineKeyboardButton(
-            f"🎯 show message",
+            f"show message",
             callback_data="show_whisper"
         )
 
@@ -72,7 +72,7 @@ __HELP__ = """
 the other way to use me is to write the inline query by your self
 the format should be in this arrangement
 
-@szrosebot your whisper @username
+@akirgroupbot your whisper @username
 
 now I'll split out the format in 3 parts and explain every part of it
 
@@ -86,9 +86,9 @@ it is the whisper that will be sent to the target user, you need to remove your 
 you should replace this with target's username so the bot will know that the user with this username can see your whisper message.
 
 example:- 
-@szrosebot hello this is a test @supunma
+@akirgrouobot hello this is a test @username
 
-📎 the bot works in groups and the target user should be in the same group with you
+📝 The bot works in groups and the target user should be in the same group with you
 what you are waiting for?!
-try me now 😉 """
+try me now ! """
 
