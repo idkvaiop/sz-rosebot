@@ -179,7 +179,7 @@ keyboard =InlineKeyboardMarkup(
       InlineKeyboardButton(text="🇲🇼 Chichewa", callback_data="languages_ny")], 
      [InlineKeyboardButton(text="🇩🇪 German", callback_data="languages_ge"), 
       InlineKeyboardButton(text="🇷🇺 Russian", callback_data="languages_ru")], 
-     [InlineKeyboardButton("« Back", callback_data='startcq')]])
+     [InlineKeyboardButton("Back", callback_data='startcq')]])
 
 @app.on_callback_query(filters.regex("_langs"))
 @languageCB
