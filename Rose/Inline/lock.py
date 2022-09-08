@@ -39,7 +39,7 @@ spam
 porn
 anonchannel
 
-Rose will delete user's message if locked content is sent
+Akira will delete user's message if locked content is sent !
 """
 
 @app.on_callback_query(filters.regex("_ucd"))
@@ -69,7 +69,7 @@ asuttons = InlineKeyboardMarkup(
                 )
         ],
         [
-            InlineKeyboardButton('« Back', callback_data='bot_commands')
+            InlineKeyboardButton('Back', callback_data='bot_commands')
         ]]
 )
 
