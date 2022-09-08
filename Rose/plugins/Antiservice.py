@@ -43,7 +43,7 @@ async def delete_service(_, message):
         pass
     
 
-__MODULE__ = formatting
+__MODULE__ = "formatting"
 __HELP__ = f"""
 **Formatting**
 Akira supports a large number of formatting options to make
