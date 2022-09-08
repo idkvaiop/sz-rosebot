@@ -263,7 +263,7 @@ I'm a Super Powerful Group management bot !
 Join @TheAkiraBots for my updates :)
 
 **All commands can be used with the following: / **""",keyboard)
-
+"""
 
 @app.on_callback_query(filters.regex("bot_commands"))
 @languageCB
