@@ -7,8 +7,8 @@ from Rose.utils.lang import *
 fbuttons = InlineKeyboardMarkup(
         [[InlineKeyboardButton(text="Support Group ❓", url="https://t.me/AkiraBotSupport"),
           InlineKeyboardButton(text="News Channel 📰", url="https://t.me/TheAkiraBots")], 
-        [ InlineKeyboardButton(text="Developer ❕", url="https://t.me/XKHILOP"),
-          InlineKeyboardButton(text="Owner ❗", url="https://t.me/L0RDLUCIFER")], 
+        [ InlineKeyboardButton(text="Developer ❕", url="https://tg://user?id={2102783671}"),
+          InlineKeyboardButton(text="Owner ❗", url="https://tg://user?id={5082902573}")], 
         [InlineKeyboardButton(text="About Me 📝", callback_data="_about")
         ],[InlineKeyboardButton("Back", callback_data='startcq')]])
 
