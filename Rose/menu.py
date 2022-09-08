@@ -5,12 +5,12 @@ from Rose.utils.lang import *
 
 
 fbuttons = InlineKeyboardMarkup(
-        [[InlineKeyboardButton(text="👥Support Group", url="https://t.me/szrosesupport"),
-          InlineKeyboardButton(text="👤News Channel", url="https://t.me/Theszrosebot")], 
-        [ InlineKeyboardButton(text="⚒ Source Code", url="https://github.com/szsupunma/sz-rosebot"),
-          InlineKeyboardButton(text="📓 Documentation", url="https://szsupunma.gitbook.io/rose-bot")], 
-        [InlineKeyboardButton(text="🖥 How To Deploy Me", url="https://szsupunma.gitbook.io/rose-bot")
-        ],[InlineKeyboardButton("« Back", callback_data='startcq')]])
+        [[InlineKeyboardButton(text="Support Group ❓", url="https://t.me/AkiraBotSupport"),
+          InlineKeyboardButton(text="News Channel 📰", url="https://t.me/TheAkiraBots")], 
+        [ InlineKeyboardButton(text="Developer ❕", url="https://t.me/XKHILOP"),
+          InlineKeyboardButton(text="Owner ❗", url="https://t.me/L0RDLUCIFER")], 
+        [InlineKeyboardButton(text="About Me 📝", callback_data="_about")
+        ],[InlineKeyboardButton("Back", callback_data='startcq')]])
 
 keyboard =InlineKeyboardMarkup(
     [[InlineKeyboardButton(text="🇱🇷 English", callback_data="languages_en")],
@@ -24,7 +24,7 @@ keyboard =InlineKeyboardMarkup(
       InlineKeyboardButton(text="🇲🇼 Chichewa", callback_data="languages_ny")], 
      [InlineKeyboardButton(text="🇩🇪 German", callback_data="languages_ge"), 
       InlineKeyboardButton(text="🇷🇺 Russian", callback_data="languages_ru")], 
-     [InlineKeyboardButton("« Back", callback_data='startcq')]])
+     [InlineKeyboardButton("Back", callback_data='startcq')]])
 
 @app.on_callback_query(filters.regex("_langs"))
 @languageCB
