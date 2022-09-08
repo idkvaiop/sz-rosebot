@@ -154,7 +154,6 @@ async def start(client, message: Message, _):
     else:
         await message.reply_text(f"""
 Hello {message.from_user.mention}, I am {BOT_NAME} !
-Hello, I'm Akira!
 I'm a Super Powerful Group management bot !"""
   
   return await add_served_user(chat_id) 
