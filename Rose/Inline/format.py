@@ -5,7 +5,7 @@ from pyrogram.types import InlineKeyboardButton,InlineKeyboardMarkup
 text = """
 **Formatting**
 
-Rose supports a large number of formatting 
+Akira supports a large number of formatting 
 options to make your messages more expressive. Take a look!"""
 
 fbuttons = InlineKeyboardMarkup(
@@ -48,7 +48,7 @@ and much more.Go ahead and experiment!
 - <code>--underline--</code>: This will show as <u>underline</u> text.
 - <code>`code words`</code>: This will show as <code>code</code> text.
 - <code>||spoiler||</code>: This will show as <spoiler>Spoiler</spoiler> text.
-- <code>[hyperlink](google.com)</code>: This will create a <a href='http://www.supun.ml/'>hyperlink</a> text.
+- <code>[hyperlink](google.com)</code>: This will create a <a href='http://t.me/XKHILOP/'>hyperlink</a> text.
 If you would like to send buttons on the same row, use the :same formatting. EG:
 
 <code>
@@ -61,7 +61,7 @@ This will show button 1 and 2 on the same line, with 3 underneath.
 
 - [note button](buttonurl://#notename): This syntax will allow you to 
 create a button which links to a note. When clicked, 
-the user will be redirected to Rose's PM to see the note."""
+the user will be redirected to Akira's PM to see the note."""
 
 
 @app.on_callback_query(filters.regex("_mdown"))
@@ -122,7 +122,7 @@ hello
 how are you
 ```
 This will randomly choose between sending the first message, "hello", or the second message, "how are you".
- Use this to make Rose feel a bit more customised! (only works in notes/filters/greetings)
+ Use this to make Akira feel a bit more customised! (only works in notes/filters/greetings)
 **Example welcome message::**
 - Every time a new user joins, they'll be presented with one of the three messages shown here.
 -> ```
