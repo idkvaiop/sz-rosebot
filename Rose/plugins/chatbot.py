@@ -99,7 +99,7 @@ AI based chatbot allows rose to talk and provides a more interactive group chat 
 
 
 **Language Support**
-Rose AI chatbot support almost all languages in world .
+Akira AI chatbot support almost all languages in world .
 Powered By ; `googletrans==3.1.0a0`
 """
 
