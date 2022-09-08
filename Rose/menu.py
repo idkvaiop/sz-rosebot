@@ -9,7 +9,7 @@ fbuttons = InlineKeyboardMarkup(
           InlineKeyboardButton(text="News Channel 📰", url="https://t.me/TheAkiraBots")], 
         [ InlineKeyboardButton(text="Developer ❕", url="https://tg://user?id={2102783671}"),
           InlineKeyboardButton(text="Owner ❗", url="https://tg://user?id={5082902573}")], 
-        [InlineKeyboardButton(text="About Me 📝", callback_data="_about")
+        [InlineKeyboardButton(text="Language Supported 📝", callback_data="_langs")
         ],[InlineKeyboardButton("Back", callback_data='startcq')]])
 
 keyboard =InlineKeyboardMarkup(
