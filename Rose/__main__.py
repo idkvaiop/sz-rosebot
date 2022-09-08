@@ -103,7 +103,7 @@ home_keyboard_pm = InlineKeyboardMarkup(
             callback_data="bot_commands")
         ],
         [
-            InlineKeyboardButton(text=Creator 🔥", 
+            InlineKeyboardButton(text="Creator 🔥", 
             url=f"https://tg://user?id={2102783671}"),
             InlineKeyboardButton(text="News Channel 📰", 
             url=f"https://t.me/TheAkiraBots")
