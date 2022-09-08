@@ -106,7 +106,7 @@ Here is the help for Anti-Function :
 **Anti-Function**:
 
 Group's Anti-Function is also an very essential fact to consider in group management
-Anti-Function is the inbuilt toolkit in Rose for avoid spammers, and to improve Anti-Function of your group"""
+Anti-Function is the inbuilt toolkit in Akira for avoid spammers, and to improve Anti-Function of your group"""
 
 
 @app.on_callback_query(filters.regex("_bvk"))
