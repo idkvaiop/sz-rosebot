@@ -750,8 +750,8 @@ async def groupcb(_,query):
         keyboard = InlineKeyboardMarkup([
             [InlineKeyboardButton(f"{stat}", callback_data=f"{cb}:{group_id}"),
              InlineKeyboardButton("Clear 🧹", callback_data=f"deletecb:{group_id}")],
-            [InlineKeyboardButton("⚒ Commands", callback_data="connectcb_")],
-            [InlineKeyboardButton("« Back", callback_data="backcb")]
+            [InlineKeyboardButton(" Commands ❓", callback_data="connectcb_")],
+            [InlineKeyboardButton("Back", callback_data="backcb")]
         ])
         return await query.message.edit_text(
 f""" **Current connected chat:**    
@@ -766,7 +766,7 @@ f""" **Current connected chat:**
     filters.regex("connectcb_")
 )
 async def connectcb_(_,query):
-        keyboard = InlineKeyboardMarkup([[InlineKeyboardButton("« Back", callback_data="backcb")]])
+        keyboard = InlineKeyboardMarkup([[InlineKeyboardButton("Back", callback_data="backcb")]])
         return await query.message.edit_text(
 f""" **Actions are available with connected groups:**
  • View and edit Filters.
